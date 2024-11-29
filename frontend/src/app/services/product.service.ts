@@ -34,7 +34,7 @@ getProducts(){
 
 updateStatus(data:any){
   return this.httpClient.patch(this.url + "/product/updateStatus/",data,{
-    headers:new HttpHeaders().set('content-Type',"application/json")
+     
 
   })
 
