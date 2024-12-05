@@ -31,6 +31,30 @@ const MENUITEMS: Menu[] = [
     role: ''
 
   },
+  {
+    state: 'order',
+    name: 'Manage order',
+    icon: 'list_alt',
+    role: ''
+
+  },
+  {
+    state: 'bill',
+    name: 'View Bill',
+    icon: 'import_contacts',
+    role: ''
+
+  },
+
+  {
+    state: 'user',
+    name: 'View User',
+    icon: 'people',
+    role: ''
+
+  },
+
+
 ];
 
 @Injectable()

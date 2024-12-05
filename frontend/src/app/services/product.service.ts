@@ -51,7 +51,8 @@ delete(id:any){
 
 
 getProductsByCategort(id:any){
-  return this.httpClient.get(this.url +"/product/getCategory/" +id);
+
+  return this.httpClient.get(this.url +"/product/getByCategory/" +id);
 
 }
 
@@ -60,6 +61,8 @@ getById(id:any){
 
 
 }
+
+
 
 
 
